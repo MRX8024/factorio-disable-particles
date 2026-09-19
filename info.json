@@ -1,0 +1,9 @@
+{
+  "name": "disable-particles",
+  "version": "1.0.0",
+  "title": "Disable Particles",
+  "author": "MRX8024",
+  "factorio_version": "2.1",
+  "dependencies": ["base >= 2.0", "? space-age"],
+  "description": "Disable particles common on endgame megabases to reduce the update time. List is configurable in startup settings."
+}

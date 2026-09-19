@@ -1,0 +1,100 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-09-20
+  Features:
+    - Initial release.
+    - Removes UPS-hungry particles by stripping every reference to them from the
+      prototype data: create-particle trigger effects, gun shell_particle specs,
+      mining particles, footprint particles and tree leaf/branch generation.
+    - Startup settings: a checkbox per particle (all enabled by default) and a
+      mode selector - "Checked below", "All" or "None". Particles of inactive
+      mods are hidden.
+    - Particles (88):
+      acid-particle
+      blood-particle
+      blood-particle-carpet
+      blood-particle-carpet-small
+      blood-particle-lower-layer
+      blood-particle-lower-layer-small
+      blood-particle-small
+      branch-particle
+      cable-and-electronics-particle-small-medium
+      car-metal-particle-big
+      car-metal-particle-medium
+      car-metal-particle-small
+      carbonic-asteroid-chunk-particle-medium
+      carbonic-asteroid-chunk-particle-small
+      carbonic-asteroid-particle-big
+      carbonic-asteroid-particle-medium
+      carbonic-asteroid-particle-small
+      carbonic-asteroid-particle-top-big
+      carbonic-asteroid-particle-top-huge
+      carbonic-asteroid-particle-top-small
+      demolisher-shell-particle-big
+      demolisher-shell-particle-small
+      demolisher-skin-particle-big
+      demolisher-skin-particle-medium
+      demolisher-skin-particle-small
+      gleba-blood-particle
+      gleba-blood-particle-small
+      guts-entrails-particle-big
+      guts-entrails-particle-small-medium
+      guts-entrails-particle-spawner
+      iron-chest-metal-particle-medium
+      iron-chest-metal-particle-small
+      jellystem-branch-particle
+      jellystem-leaf-particle
+      jellystem-mining-particle
+      leaf-particle
+      metallic-asteroid-chunk-particle-medium
+      metallic-asteroid-chunk-particle-small
+      metallic-asteroid-particle-big
+      metallic-asteroid-particle-medium
+      metallic-asteroid-particle-small
+      metallic-asteroid-particle-top-big
+      metallic-asteroid-particle-top-huge
+      metallic-asteroid-particle-top-small
+      oxide-asteroid-chunk-particle-medium
+      oxide-asteroid-chunk-particle-small
+      oxide-asteroid-particle-big
+      oxide-asteroid-particle-medium
+      oxide-asteroid-particle-small
+      oxide-asteroid-particle-top-big
+      oxide-asteroid-particle-top-huge
+      oxide-asteroid-particle-top-small
+      pentapod-entrails-particle-big
+      pentapod-entrails-particle-medium
+      pentapod-entrails-particle-small
+      promethium-asteroid-chunk-particle-medium
+      promethium-asteroid-chunk-particle-small
+      promethium-asteroid-particle-big
+      promethium-asteroid-particle-medium
+      promethium-asteroid-particle-small
+      promethium-asteroid-particle-top-big
+      promethium-asteroid-particle-top-huge
+      promethium-asteroid-particle-top-small
+      railgun-shell-particle
+      shell-particle
+      spark-particle
+      spark-particle-debris
+      steel-chest-metal-particle-medium
+      steel-chest-metal-particle-small
+      tintable-water-particle
+      vulcanus-blood-particle-lower-layer-small
+      vulcanus-lava-particle-long-life-big
+      vulcanus-lava-particle-long-life-small
+      vulcanus-stone-particle-big
+      vulcanus-stone-particle-medium
+      vulcanus-stone-particle-small
+      vulcanus-stone-particle-smoke-big
+      vulcanus-stone-particle-smoke-medium
+      vulcanus-stone-particle-smoke-small
+      wall-stone-particle-medium
+      wall-stone-particle-small
+      wall-stone-particle-tiny
+      wooden-chest-wooden-splinter-particle-medium
+      wooden-chest-wooden-splinter-particle-small
+      wooden-particle
+      yumako-branch-particle
+      yumako-leaf-particle
+      yumako-mining-particle
