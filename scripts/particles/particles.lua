@@ -4,6 +4,7 @@
 -- Order here is the order in the settings GUI.
 local particles = {
   { name = "acid-particle" },
+  { name = "big-rock-stone-particle-tiny" },
   { name = "blood-particle" },
   { name = "blood-particle-carpet" },
   { name = "blood-particle-carpet-small" },
@@ -28,6 +29,9 @@ local particles = {
   { name = "demolisher-skin-particle-big",              requires = "space-age" },
   { name = "demolisher-skin-particle-medium",           requires = "space-age" },
   { name = "demolisher-skin-particle-small",            requires = "space-age" },
+  { name = "fulgora-stone-particle-big",                requires = "space-age" },
+  { name = "fulgora-stone-particle-medium",             requires = "space-age" },
+  { name = "fulgora-stone-particle-small",              requires = "space-age" },
   { name = "gleba-blood-particle",                      requires = "space-age" },
   { name = "gleba-blood-particle-small",                requires = "space-age" },
   { name = "guts-entrails-particle-big" },
@@ -95,7 +99,7 @@ local particles = {
 
 for i, p in ipairs(particles) do
   p.setting = "dp-" .. p.name
-  p.order = string.format("b%03d", i)
+  p.order = string.format("c%03d", i)
 end
 
 return particles

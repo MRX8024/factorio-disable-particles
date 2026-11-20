@@ -1,4 +1,25 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2026-11-20
+  Features:
+    - Added startup settings to remove effects of specific entities. They are
+      listed above the particle settings, all enabled by default.
+    - Car effects: no explosion, wreck, damage sparks or corpse when the car is
+      destroyed. Other vehicles are not affected.
+    - Rocket effects: no launch flash or smoke trail, and no explosion,
+      scorchmark or tile effects on impact.
+    - Bullet effects: no muzzle flash or hit sparks for firearm, piercing and
+      uranium rounds.
+    - Railgun effects: no muzzle flash or beam smoke. The beam stays.
+    - Asteroid effects: no explosion when an asteroid or a chunk is destroyed.
+    - Ejected item effects: items inserted out of a space platform disappear
+      after 1 tick instead of 25 seconds.
+    - Particles (4):
+      big-rock-stone-particle-tiny
+      fulgora-stone-particle-big
+      fulgora-stone-particle-medium
+      fulgora-stone-particle-small
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2026-09-20
   Features:
